@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.sidebar {
+    user-select: none;
+    width: 20em;
+    height: 100vh;
+    padding-top: 7em;
+    border-right: 1px solid #e9e6e6;
+    background-color: #e7e7e763;
+  
+    div {
+      margin-bottom: 0.5em;
+      cursor: pointer;
+      padding: 15px;
+  
+      &.active {
+        background-color: white;
+      }
+      .icon {
+        margin-right: 10px;
+      }
+    }
+  }
